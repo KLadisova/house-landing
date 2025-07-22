@@ -1,0 +1,248 @@
+body {
+  margin: 0px auto;
+  width: 100%;
+  /* max-width: 1440px; */
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  /* padding: 0 150px; */
+  background-color: #f4f6f5;
+  align-items: center;
+}
+.ink-house {
+  display: flex;
+  gap: 8px;
+  padding: 0 150px;
+}
+.header-text-left {
+  color: #598d66;
+  font-weight: 700;
+  font-size: 20px;
+}
+header {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  width: 100%;
+  background-color: #e1ede6;
+}
+.header-container {
+  margin: 0px auto;
+  padding: 30px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  /* width: 100%; */
+  background-color: #e1ede6;
+}
+
+.header-text {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 27px;
+
+  color: #2c2d35;
+}
+.header-navigation {
+  display: flex;
+  gap: 50px;
+  padding: 0 150px;
+}
+
+.first-block {
+  display: flex;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 1440px;
+  margin: 50px auto;
+  padding: 0 150px;
+  align-items: center;
+}
+
+#img {
+  background-color: transparent;
+}
+
+.first-block-header {
+  color: #2c2d35;
+  font-size: 60px;
+  letter-spacing: 0;
+  line-height: 110%;
+}
+.ink-house {
+  color: #598d66;
+}
+
+.first-block-details {
+  color: #86928b;
+  font-size: 18px;
+  line-height: 150%;
+}
+.btn-header {
+  display: inline-block;
+  /* outline: none; */
+  border: 1px solid #598d66;
+  background-color: transparent;
+  color: #598d66;
+  font-size: 20px;
+  line-height: 100%;
+  margin-top: 5%;
+  padding: 20px 40px;
+}
+.second-block {
+  display: flex;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 1440px;
+  margin: 50px auto;
+}
+
+.second-block-top {
+  display: flex;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 1440px;
+  margin: 50px auto;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 150px;
+}
+.second-block-heading {
+  font-size: 40px;
+  line-height: 110%;
+  letter-spacing: 0;
+  color: #2c2d35;
+}
+
+.second-block-btn {
+  display: flex;
+  gap: 32px;
+}
+
+.btn-one {
+  background-color: #376b44;
+  color: #f4f6f5;
+}
+.btn-two,
+.btn-three {
+  color: #2c2d35;
+  background-color: #d4e8d9;
+}
+
+.btn-one,
+.btn-two,
+.btn-three {
+  outline: none;
+  border: none;
+  border-radius: 20px;
+  font-size: 20px;
+  line-height: 100%;
+  padding: 10px 20px;
+}
+
+.second-block {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  gap: 30px;
+  width: 100%;
+  box-sizing: border-box;
+  align-items: start;
+  max-width: 1440px;
+  padding: 0 150px;
+}
+
+.paintings {
+  background-color: #e1ede6;
+  padding: 20px;
+  line-height: 100%;
+}
+
+.painter {
+  color: #86928b;
+  line-height: 100%;
+}
+
+.painting-name {
+  font-size: 30px;
+}
+
+.materials,
+.painter {
+  font-size: 18px;
+  padding-top: 0px;
+}
+.materials {
+  margin-bottom: 30px;
+}
+.painting-name,
+.materials {
+  color: #2c2d35;
+}
+
+.price {
+  color: #598d66;
+  font-size: 24px;
+}
+.btn-cart {
+  color: #598d66;
+
+  border: transparent;
+  border: 1px solid #598d66;
+  padding: 20px 40px;
+  font-size: 20px;
+}
+
+.third-block {
+  display: flex;
+  box-sizing: border-box;
+  width: 100%;
+  /* max-width: 1440px;
+  margin: 50px auto;
+  padding: 0 150px; */
+  background-image: url(images/a3af165b6bcdb356971fca2ed6a45d666fd368a5.jpg);
+  background-size: cover;
+  background-position: center 30%;
+}
+.third-block-description {
+  width: 100%;
+  max-width: 1440px;
+  margin: 50px auto;
+  padding: 0 270px;
+}
+
+.third-block-title{
+display: flex;
+/* word-wrap: break-word;         
+max-width: calc(100% - 95px);  */
+gap: 15px;   
+}
+
+/* .star-img {
+    width: 80px;                  
+    height: 80px;                   
+    border: 3px solid #000;        
+    border-radius: 50%;    
+} */
+ 
+.third-block-title,
+.third-block-text {
+  font-size: 40px;
+  line-height: 100%;
+  color: #f4f6f5;
+}
+
+.third-block-text {
+  font-size: 18px;
+  margin-bottom: 20px;
+  line-height: 150%;
+}
+
+.third-block-button {
+  border: transparent;
+  border: none;
+  padding: 20px 40px;
+  font-size: 20px;
+  color: #2c2d35;
+  background-color: #eedb6d;
+}
