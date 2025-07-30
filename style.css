@@ -8,7 +8,12 @@ body {
   background-color: #f4f6f5;
   align-items: center;
 }
-.ink-house {
+button,
+a {
+  cursor: pointer;
+
+}
+.ink-house-logo {
   display: flex;
   gap: 8px;
   padding: 0 150px;
@@ -65,7 +70,8 @@ header {
 
 .first-block-header {
   color: #2c2d35;
-  font-size: 60px;
+  font-weight: 580;
+  font-size: 70px;
   letter-spacing: 0;
   line-height: 110%;
 }
@@ -89,11 +95,8 @@ header {
   margin-top: 5%;
   padding: 20px 40px;
 }
+
 .second-block {
-  display: flex;
-  box-sizing: border-box;
-  width: 100%;
-  max-width: 1440px;
   margin: 50px auto;
 }
 
@@ -140,7 +143,7 @@ header {
   padding: 10px 20px;
 }
 
-.second-block {
+.second-block-info {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   align-items: center;
@@ -150,6 +153,7 @@ header {
   align-items: start;
   max-width: 1440px;
   padding: 0 150px;
+  margin: 50px auto;
 }
 
 .paintings {
@@ -197,12 +201,11 @@ header {
   display: flex;
   box-sizing: border-box;
   width: 100%;
-  /* max-width: 1440px;
-  margin: 50px auto;
-  padding: 0 150px; */
-  background-image: url(images/a3af165b6bcdb356971fca2ed6a45d666fd368a5.jpg);
+  background-image: url(images/background-img.png);
   background-size: cover;
   background-position: center 30%;
+  position: absolute;
+  /* z-index: 1; */
 }
 .third-block-description {
   width: 100%;
@@ -211,20 +214,14 @@ header {
   padding: 0 270px;
 }
 
-.third-block-title{
-display: flex;
-/* word-wrap: break-word;         
-max-width: calc(100% - 95px);  */
-gap: 15px;   
+.third-block-title {
+  display: flex;
+
+  gap: 15px;
 }
 
-/* .star-img {
-    width: 80px;                  
-    height: 80px;                   
-    border: 3px solid #000;        
-    border-radius: 50%;    
-} */
- 
+
+
 .third-block-title,
 .third-block-text {
   font-size: 40px;
@@ -245,4 +242,14 @@ gap: 15px;
   font-size: 20px;
   color: #2c2d35;
   background-color: #eedb6d;
+}
+
+.third-block-background-filter {
+  position: relative;
+
+  height: 100%;
+  width: 100%;
+  background-image: url("images/Rectangle\ 150.png");
+  background-size: cover;
+  background-position: center 30%;
 }
