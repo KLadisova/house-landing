@@ -12,6 +12,9 @@ button,
 a {
   cursor: pointer;
 }
+a {
+  text-decoration: none;
+}
 .ink-house-logo {
   display: flex;
   gap: 8px;
@@ -285,19 +288,16 @@ header {
 }
 
 .footer {
-
   display: flex;
   align-items: center;
   box-sizing: border-box;
   width: 100%;
   background-color: #e1ede6;
   padding: 0 150px;
-  
 }
 .ink-house-footer {
   display: flex;
   gap: 8px;
-
 }
 
 .footer-info {
@@ -316,18 +316,18 @@ header {
 .footer-guide {
   display: flex;
   gap: 30px;
-  align-items:flex-start;
+  align-items: flex-start;
 }
 .footer-flex {
-  display: flex
-  ;
-      flex-direction: column;
-      justify-content: center;
-      box-sizing: border-box;
-      font-weight: 400;
-      font-size: 17px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-sizing: border-box;
+  font-weight: 400;
+  font-size: 17px;
 }
-.blck-text {
+.blck-text,
+.a-blck {
   font-size: 20px;
   letter-spacing: 0;
   color: #2c2d35;
@@ -339,12 +339,15 @@ header {
   letter-spacing: 0;
   color: #86928b;
 }
-
-/* .footer-logo {
+.footer-logo {
   display: flex;
   flex-direction: column;
-} */
+  justify-content: center;
+  box-sizing: border-box;
+  font-weight: 400;
+  font-size: 17px;
+}
 .social-network {
   display: flex;
-  gap: 20px;
+  gap: 30px;
 }
