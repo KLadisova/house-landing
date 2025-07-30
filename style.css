@@ -86,7 +86,7 @@ header {
   font-size: 18px;
   line-height: 150%;
 }
-.btn-header {
+.btn-rectangle {
   display: inline-block;
   /* outline: none; */
   border: 1px solid #598d66;
@@ -96,6 +96,7 @@ header {
   line-height: 100%;
   margin-top: 5%;
   padding: 20px 40px;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .catalog-block {
@@ -190,7 +191,7 @@ header {
   color: #598d66;
   font-size: 24px;
 }
-.btn-cart {
+.btn-rectangle {
   color: #598d66;
 
   border: transparent;
