@@ -11,7 +11,6 @@ body {
 button,
 a {
   cursor: pointer;
-
 }
 .ink-house-logo {
   display: flex;
@@ -217,8 +216,6 @@ header {
   gap: 15px;
 }
 
-
-
 .wide-title,
 .wide-text {
   font-size: 40px;
@@ -248,4 +245,41 @@ header {
   background-image: url("images/Rectangle150.png");
   background-size: cover;
   background-position: center 30%;
+}
+
+.team {
+  display: flex;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 1440px;
+  margin: 50px auto;
+  padding: 0 150px;
+  padding-top: 30px;
+  align-items: center;
+  gap: 30px;
+}
+.team-info {
+  gap: 30px;
+  display: block;
+}
+
+.team-header {
+  font-size: 40px;
+  line-height: 110%;
+  letter-spacing: 0;
+  color: #2c2d35;
+}
+
+.team-text {
+  font-size: 19px;
+  line-height: 150%;
+}
+.team-avatar {
+  display: flex;
+  gap: 30px;
+}
+.avatar {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
 }
