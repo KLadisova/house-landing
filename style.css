@@ -54,7 +54,7 @@ header {
   padding: 0 150px;
 }
 
-.first-block {
+.hero-block {
   display: flex;
   box-sizing: border-box;
   width: 100%;
@@ -68,7 +68,7 @@ header {
   background-color: transparent;
 }
 
-.first-block-header {
+.hero-block-header {
   color: #2c2d35;
   font-weight: 580;
   font-size: 70px;
@@ -79,7 +79,7 @@ header {
   color: #598d66;
 }
 
-.first-block-details {
+.hero-block-details {
   color: #86928b;
   font-size: 18px;
   line-height: 150%;
@@ -96,11 +96,11 @@ header {
   padding: 20px 40px;
 }
 
-.second-block {
+.sectioon-block-block {
   margin: 50px auto;
 }
 
-.second-block-top {
+.sectioon-block-block-top {
   display: flex;
   box-sizing: border-box;
   width: 100%;
@@ -110,14 +110,14 @@ header {
   justify-content: space-between;
   padding: 0 150px;
 }
-.second-block-heading {
+.sectioon-block-block-heading {
   font-size: 40px;
   line-height: 110%;
   letter-spacing: 0;
   color: #2c2d35;
 }
 
-.second-block-btn {
+.sectioon-block-block-btn {
   display: flex;
   gap: 32px;
 }
@@ -143,7 +143,7 @@ header {
   padding: 10px 20px;
 }
 
-.second-block-info {
+.sectioon-block-block-info {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   align-items: center;
@@ -197,7 +197,7 @@ header {
   font-size: 20px;
 }
 
-.third-block {
+.wide-block {
   display: flex;
   box-sizing: border-box;
   width: 100%;
@@ -207,14 +207,14 @@ header {
   position: absolute;
   /* z-index: 1; */
 }
-.third-block-description {
+.wide-block-description {
   width: 100%;
   max-width: 1440px;
   margin: 50px auto;
   padding: 0 270px;
 }
 
-.third-block-title {
+.wide-block-title {
   display: flex;
 
   gap: 15px;
@@ -222,20 +222,20 @@ header {
 
 
 
-.third-block-title,
-.third-block-text {
+.wide-block-title,
+.wide-block-text {
   font-size: 40px;
   line-height: 100%;
   color: #f4f6f5;
 }
 
-.third-block-text {
+.wide-block-text {
   font-size: 18px;
   margin-bottom: 20px;
   line-height: 150%;
 }
 
-.third-block-button {
+.wide-block-button {
   border: transparent;
   border: none;
   padding: 20px 40px;
@@ -244,7 +244,7 @@ header {
   background-color: #eedb6d;
 }
 
-.third-block-background-filter {
+.wide-block-background-filter {
   position: relative;
 
   height: 100%;
