@@ -60,7 +60,7 @@ header {
   display: flex;
   box-sizing: border-box;
   width: 100%;
-  max-width: 1440px;
+  /* max-width: 1440px; */
   margin: 50px auto;
   padding: 0 150px;
   align-items: center;
@@ -107,7 +107,7 @@ header {
   display: flex;
   box-sizing: border-box;
   width: 100%;
-  max-width: 1440px;
+  /* max-width: 1440px; */
   margin: 50px auto;
   align-items: center;
   justify-content: space-between;
@@ -153,8 +153,8 @@ header {
   gap: 30px;
   width: 100%;
   box-sizing: border-box;
-  align-items: start;
-  max-width: 1440px;
+  /* align-items: start;
+  max-width: 1440px; */
   padding: 0 150px;
   margin: 50px auto;
 }
@@ -210,7 +210,7 @@ header {
 }
 .wide-description {
   width: 100%;
-  max-width: 1440px;
+  /* max-width: 1440px; */
   margin: 50px auto;
   padding: 0 270px;
 }
@@ -255,7 +255,7 @@ header {
   display: flex;
   box-sizing: border-box;
   width: 100%;
-  max-width: 1440px;
+  /* max-width: 1440px; */
   margin: 50px auto;
   padding: 0 150px;
   padding-top: 30px;
@@ -351,4 +351,35 @@ header {
 .social-network {
   display: flex;
   gap: 30px;
+}
+
+/* @media (max-width: 690px) */
+@media (max-width: 1024px)
+ {
+  body {
+    padding: 50px;
+  }
+  .catalog-block-info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    width: 100%;
+    /* box-sizing: border-box;
+    align-items: start; */
+  }
+  .hero{
+    max-width: 100%;
+    display: flex;
+  }
+  .hero-header, .btn-rectangle{
+    font-size: 25px;
+    
+  }
+  .bird-img, .hero-info, .team-jpg, .art {
+    max-width: 330px;
+  }
+
+@media (max-width: 510px) {
+  
+  }
 }
