@@ -18,7 +18,6 @@ a {
 .ink-house-logo {
   display: flex;
   gap: 8px;
-  padding: 0 150px;
 }
 .header-text-left {
   color: #598d66;
@@ -31,16 +30,16 @@ header {
   box-sizing: border-box;
   width: 100%;
   background-color: #e1ede6;
+  padding: 15px 0;
 }
 .header-container {
-  margin: 0px auto;
-  padding: 30px 15px;
+  margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
   box-sizing: border-box;
-  /* width: 100%; */
-  background-color: #e1ede6;
+  width: 100%;
+  max-width: 1110px;
 }
 
 .header-text {
@@ -53,7 +52,6 @@ header {
 .header-navigation {
   display: flex;
   gap: 50px;
-  padding: 0 150px;
 }
 
 .hero {
@@ -199,6 +197,17 @@ header {
   padding: 20px 40px;
   font-size: 20px;
 }
+
+/* .btn-rectangle:hover {
+  background-color: red;
+  color: purple;
+}
+.btn-rectangle:active {
+  background-color: purple;
+}
+.btn-rectangle:focus {
+  background-color: green;
+} */
 
 .wide {
   display: flex;
