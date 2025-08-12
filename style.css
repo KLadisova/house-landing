@@ -123,10 +123,7 @@ header {
   gap: 32px;
 }
 
-.btn-one {
-  background-color: #376b44;
-  color: #f4f6f5;
-}
+.btn-one,
 .btn-two,
 .btn-three {
   color: #2c2d35;
@@ -143,6 +140,22 @@ header {
   line-height: 100%;
   padding: 10px 20px;
 }
+.btn-one:hover,
+.btn-two:hover,
+.btn-three:hover {
+  background-color: #598d66;
+  color: #f4f6f5;
+}
+.btn-one:active,
+.btn-two:active,
+.btn-three:active {
+  background-color: #376b44;
+  color: #ffffff;
+}
+/* .btn-one:focus {
+  background-color:#376B44;
+  color:#F4F6F5;
+}  */
 
 .catalog-block-info {
   display: grid;
@@ -198,16 +211,18 @@ header {
   font-size: 20px;
 }
 
-/* .btn-rectangle:hover {
-  background-color: red;
-  color: purple;
+.btn-rectangle:hover {
+  background-color: #598d66;
+  color: #f4f6f5;
 }
 .btn-rectangle:active {
-  background-color: purple;
+  background-color: #376b44;
+  color: #ffffff;
 }
 .btn-rectangle:focus {
-  background-color: green;
-} */
+  background-color: #d4e8d9;
+  color: #598d66;
+}
 
 .wide {
   display: flex;
@@ -322,6 +337,10 @@ header {
   width: 100%;
   background-color: #e1ede6;
 }
+/* .footer-context {
+  display: flex;
+  gap: 10px;
+} */
 
 .footer-guide {
   display: flex;
@@ -361,6 +380,10 @@ header {
 .social-network {
   display: flex;
   gap: 30px;
+}
+.btn-social:hover{
+  background-color: #D4E8D9;
+  color: #598D66;
 }
 
 @media (max-width: 690px) {
@@ -482,11 +505,10 @@ header {
   }
   .team-img {
     max-width: 410px;
-    margin: 0 20px
+    margin: 0 20px;
   }
   .team-avatar {
     margin: 40px 20px;
-   
   }
   .footer-info {
     display: flex;
@@ -529,7 +551,6 @@ header {
   .catalog-block-info {
     margin: 0 20px;
   }
- 
 }
 
 @media (max-width: 510px) {
