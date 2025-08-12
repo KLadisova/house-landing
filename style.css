@@ -204,18 +204,17 @@ header {
 }
 .btn-rectangle {
   color: #598d66;
-
   border: transparent;
   border: 1px solid #598d66;
   padding: 20px 40px;
   font-size: 20px;
 }
 
-.btn-rectangle:hover {
+.btn-rectangle::active  {
   background-color: #598d66;
   color: #f4f6f5;
 }
-.btn-rectangle:active {
+.btn-rectangle:hover {
   background-color: #376b44;
   color: #ffffff;
 }
@@ -376,16 +375,23 @@ header {
   box-sizing: border-box;
   font-weight: 400;
   font-size: 17px;
+
 }
 .social-network {
   display: flex;
   gap: 30px;
+  align-items: center;
+  padding-top: 20px;
 }
-.btn-social:hover{
+.a-social:hover svg path {
+  fill: #598D66; /* цвет при наведении */
+}
+.a-social:active {
   background-color: #D4E8D9;
-  color: #598D66;
 }
-
+.a-social:active svg path {
+  fill: #598D66;
+}
 @media (max-width: 690px) {
   /* body {
     /* padding: 50px; */
