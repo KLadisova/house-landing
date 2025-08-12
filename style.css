@@ -210,7 +210,7 @@ header {
   font-size: 20px;
 }
 
-.btn-rectangle::active  {
+.btn-rectangle:active  {
   background-color: #598d66;
   color: #f4f6f5;
 }
@@ -264,7 +264,12 @@ header {
   color: #2c2d35;
   background-color: #eedb6d;
 }
-
+.wide-button:hover{
+  background-color: #FAEB97;
+}
+.wide-button:active{
+  background-color: #D9B949;
+}
 .wide-background-filter {
   position: relative;
   height: 100%;
