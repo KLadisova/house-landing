@@ -46,8 +46,14 @@ header {
   font-weight: 500;
   font-size: 20px;
   line-height: 27px;
-
   color: #2c2d35;
+}
+.header-text:hover {
+  color: #598d66;
+}
+.header-text:active {
+  color: #376b44;
+  background-color: #d4e8d9;
 }
 .header-navigation {
   display: flex;
@@ -210,7 +216,7 @@ header {
   font-size: 20px;
 }
 
-.btn-rectangle:active  {
+.btn-rectangle:active {
   background-color: #598d66;
   color: #f4f6f5;
 }
@@ -264,11 +270,11 @@ header {
   color: #2c2d35;
   background-color: #eedb6d;
 }
-.wide-button:hover{
-  background-color: #FAEB97;
+.wide-button:hover {
+  background-color: #faeb97;
 }
-.wide-button:active{
-  background-color: #D9B949;
+.wide-button:active {
+  background-color: #d9b949;
 }
 .wide-background-filter {
   position: relative;
@@ -380,7 +386,6 @@ header {
   box-sizing: border-box;
   font-weight: 400;
   font-size: 17px;
-
 }
 .social-network {
   display: flex;
@@ -389,13 +394,13 @@ header {
   padding-top: 20px;
 }
 .a-social:hover svg path {
-  fill: #598D66; /* цвет при наведении */
+  fill: #598d66; /* цвет при наведении */
 }
 .a-social:active {
-  background-color: #D4E8D9;
+  background-color: #d4e8d9;
 }
 .a-social:active svg path {
-  fill: #598D66;
+  fill: #598d66;
 }
 @media (max-width: 690px) {
   /* body {
