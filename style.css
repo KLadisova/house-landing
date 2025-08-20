@@ -40,11 +40,12 @@ header {
   padding: 15px 0;
 }
 .header-container {
-  margin: 0 auto;
+ 
   display: flex;
   align-items: center;
   justify-content: space-between;
   box-sizing: border-box;
+  margin: 0 auto;
   width: 100%;
   max-width: 1110px;
 }
@@ -424,6 +425,11 @@ header {
   .footer768 {
     display: flex;
   }
+  /* .header {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 510px;
+  } */
   .header-container {
     margin: 0 auto;
     display: flex;
@@ -431,6 +437,7 @@ header {
     justify-content: space-between;
     box-sizing: border-box;
     width: 100%;
+    max-width: 510px;
   }
   .header-text-left {
     font-weight: 600;
@@ -439,7 +446,10 @@ header {
   .header-text-left {
     font-size: 15px;
   }
-
+  .header-navigation{
+    margin: 0;
+    gap: 25px;
+  }
   .catalog-block,
   .hero {
     margin: 0 auto;
@@ -448,24 +458,29 @@ header {
   .catalog-block-info {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    max-width: 100%;
     box-sizing: border-box;
     align-items: start;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 510px;
   }
-  .hero,
+  /* .hero, */
   .catalog-block-top {
-    max-width: 100%;
+    margin: 0;
+    width: 100%;
+    max-width: 510px;
     display: flex;
   }
 
-  .catalog-block-top {
-    max-width: 690px;
+  /* .catalog-block-top {
     gap: 10px;
-    margin: 20px 20px;
-  }
-  .painting-name,
-  .wide-title {
+
+  } */
+  .painting-name {
     font-size: 20px;
+  }
+  .wide-title{
+    font-size: 25px;
   }
   .hero-header {
     font-weight: 600;
@@ -499,7 +514,7 @@ header {
   .btn-rectangle {
     max-height: 60px;
     width: 210px;
-    font-size: 15px;
+    font-size: 20px;
   }
   .bird-img,
   .hero-info {
@@ -518,15 +533,19 @@ header {
   .wide-description {
     /* display: flex;
       flex-direction: column; */
-    padding: 50px;
+    padding: 20px;
+    max-width: 510px;
+    margin: 0 auto;
+    width: 100%;
     text-align: left;
     font-size: 15px;
   }
+ 
   .team {
     margin: 0 auto;
     display: grid;
     width: 100%;
-    max-width: 100%;
+    max-width: 510px;
     box-sizing: border-box;
   }
   .team-header {
@@ -548,6 +567,11 @@ header {
     display: flex; */
   /* flex-direction: column; */
   /* } */
+  .footer768{
+    max-width: 510px;
+    margin: 0 auto;
+    width: 100%;
+  }
   .footer768-contacts {
     display: flex;
     justify-content: space-between;
@@ -588,7 +612,7 @@ header {
   }
 
   .catalog-block-info {
-    margin: 0 20px;
+    margin: 0 auto;
   }
 }
 
