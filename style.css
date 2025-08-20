@@ -1,7 +1,6 @@
 body {
   margin: 0px auto;
   width: 100%;
-  /* max-width: 1440px; */
   font-family: "Raleway", sans-serif;
   font-weight: 500;
 
@@ -441,13 +440,13 @@ header {
     max-width: 510px;
   } */
   .header-container {
-    margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
     box-sizing: border-box;
     width: 100%;
     max-width: 510px;
+    margin: 0 auto;
   }
   .header-text-left {
     font-weight: 600;
@@ -522,9 +521,7 @@ header {
     font-size: 15px;
   }
   .btn-rectangle {
-    max-height: 60px;
-    width: 210px;
-    font-size: 20px;
+    font-size: 18px;
   }
   .hero-container {
     display: flex;
@@ -565,11 +562,11 @@ header {
     box-sizing: border-box;
   }
   .team-header {
-    font-size: 20px;
+    font-size: 25px;
     margin: 0 20px;
   }
   .team-text {
-    font-size: 15px;
+    font-size: 20px;
     margin: 20px;
   }
   .team-img {
@@ -630,12 +627,131 @@ header {
 }
 
 @media (max-width: 510px) {
+  .header-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 310px;
+    margin: 0 auto;
+  }
+  .hero-container {
+    display: flex;
+    max-width: 310px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .hero-details,
+  .painter,
+  .materials {
+    font-size: 12px;
+  }
+  .hero-header {
+    font-size: 15px;
+  }
+  .bird-img,
+  .hero-info {
+    max-width: 180px;
+  }
+  .btn-rectangle {
+    font-size: 12px;
+    padding: 10px 20px;
+  }
+  .catalog-block-top {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 310px;
+  }
+  .catalog-block-heading {
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .catalog-block-btn {
+    gap: 10px;
+    padding: 10px;
+}
+  .catalog-block-info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    box-sizing: border-box;
+    margin: 0 auto;
+    gap: 10px;
+    width: 100%;
+    max-width: 310px;
+  }
+  
+  .paintings {
+    background-color: #e1ede6;
+    padding: 10px;
+    line-height: 100%;
+  }
+  .art {
+    max-width: 130px;
+  }
+  .painting-name {
+    font-size: 15px;
+  }
+  .price {
+    margin: 5px;
+    font-size: 15px;
+  }
+  .wide-description {
+    padding: 10px;
+    max-width: 310px;
+    margin: 0 auto;
+    width: 100%;
+    font-size: 15px;
+  }
+
+  .wide-title {
+    font-size: 15px;
+  }
+  .wide-button {
+    font-size: 15px;
+    padding: 20px 40px;
+  }
+  .wide-text {
+    font-size: 12px;
+    margin-bottom: 10px;
+    line-height: 150%;
+}
+.team {
+  margin: 0 auto;
+  display: grid
+;
+  width: 100%;
+  max-width: 280px;
+  box-sizing: border-box;
+}
+.team-header {
+  font-size: 15px;
+  margin: 0 20px;
+}
+.team-text {
+  font-size: 12px;
+  margin: 10px;
+}
+  .team-img {
+    max-width: 310px;
+    margin: 0 20px;
+  }
   .footer768 {
     display: none;
   }
   .footer510 {
     display: flex;
+    box-sizing: border-box;
     background-color: #e1ede6;
+    margin: 0 auto;
+    width: 100%;
+  }
+  .footer510-contacts {
+    display: flex;
+    justify-content: space-between;
   }
 }
 
