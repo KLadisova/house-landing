@@ -137,6 +137,8 @@ header {
 .catalog-block-btn {
   display: flex;
   gap: 32px;
+  align-items: center;
+  justify-content: end;
 }
 
 .btn-one,
@@ -173,7 +175,7 @@ header {
   color:#F4F6F5;
 }  */
 
-.catalog-block-info {
+.catalog-block-info, .active[data-tab-content]{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   align-items: center;
@@ -418,6 +420,18 @@ header {
   display: none;
 }
 
+[data-tab-content] {
+  display: none;
+}
+/* .active[data-tab-content] {
+  display: block;
+} */
+.tabs {
+  /* display: flex;
+  justify-content: space-around; */
+  list-style-type: none;
+  /* margin: 0 auto; */
+}
 @media (max-width: 768px) {
   /* body {
     /* padding: 50px; */

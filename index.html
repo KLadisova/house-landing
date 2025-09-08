@@ -48,15 +48,33 @@
       </div>
     </div>
     <div class="catalog-block container">
-      <div class="catalog-block-top">
+      <!-- <div class="catalog-block-top">
+        <h2 class="catalog-block-heading">Репродукции</h2> -->
+
+      <ul class="tabs catalog-block-btn">
         <h2 class="catalog-block-heading">Репродукции</h2>
-        <div class="catalog-block-btn">
-          <button class="btn-one">Франция</button>
-          <button class="btn-two">Германия</button>
-          <button class="btn-three">Англия</button>
-        </div>
-      </div>
-      <div class="catalog-block-info">
+        <li>
+          <button class="btn-one active tab" data-tab-target="#france">
+            Франция
+          </button>
+        </li>
+        <li>
+          <button class="btn-two tab" data-tab-target="#germany">
+            Германия
+          </button>
+        </li>
+        <li>
+          <button class="btn-three tab" data-tab-target="#england">
+            Англия
+          </button>
+        </li>
+      </ul>
+      <!-- <div class="tab-content"> -->
+      <div
+        class="catalog-block-info active tab-content"
+        id="france"
+        data-tab-content
+      >
         <article class="paintings">
           <img src="images/01.jpg" class="art" alt="painting" />
           <p class="painter">Марсель Руссо</p>
@@ -106,6 +124,162 @@
           <button class="btn-rectangle">В корзину</button>
         </article>
       </div>
+      <div class="catalog-block-info tab-content" id="germany" data-tab-content>
+        <article class="paintings">
+          <img src="images/germany.jpg" class="art" alt="painting" />
+          <p class="painter">Курт Вернер</p>
+          <h3 class="painting-name">Над городом</h3>
+          <p class="materials">Цветная литография (40х60)</p>
+          <p class="price">16 000 руб</p>
+          <button class="btn-rectangle">В корзину</button>
+        </article>
+        <article class="paintings">
+          <img src="images/Germany2.jpg" class="art" alt="painting" />
+          <p class="painter">Макс Рихтер</p>
+          <h3 class="painting-name">Птенцы</h3>
+          <p class="materials">Холст, масло (50х80)</p>
+          <p class="price">14 500 руб</p>
+          <button class="btn-rectangle">В корзину</button>
+        </article>
+        <article class="paintings">
+          <img src="images/Germany3.jpg" class="art" alt="painting" />
+          <p class="painter">Мартин Майер</p>
+          <h3 class="painting-name">Среди листьев</h3>
+          <p class="materials">Цветная литография (40х60)</p>
+          <p class="price">20 000 руб</p>
+          <button class="btn-rectangle">В корзину</button>
+        </article>
+        <article class="paintings">
+          <img src="images/Germany4.jpg" class="art" alt="painting" />
+          <p class="painter">Герман Беккер</p>
+          <h3 class="painting-name">Яркая птица</h3>
+          <p class="materials">Цветная литография (40х60)</p>
+          <p class="price">13 000 руб</p>
+          <button class="btn-rectangle">В корзину</button>
+        </article>
+        <article class="paintings">
+          <img src="images/Germany5.jpg" class="art" alt="painting" />
+          <p class="painter">Вульф Бауэр</p>
+          <h3 class="painting-name">Дятлы</h3>
+          <p class="materials">Бумага, акрил (50х80)</p>
+          <p class="price">20 000 руб</p>
+          <button class="btn-rectangle">В корзину</button>
+        </article>
+        <article class="paintings">
+          <img src="images/Germany6.jpg" class="art" alt="painting" />
+          <p class="painter">Вальтер Хартманн</p>
+          <h3 class="painting-name">Большие воды</h3>
+          <p class="materials">Бумага, акрил (50х80)</p>
+          <p class="price">23 000 руб</p>
+          <button class="btn-rectangle">В корзину</button>
+        </article>
+      </div>
+      <div class="catalog-block-info tab-content" id="england" data-tab-content>
+        <article class="paintings">
+          <img src="images/England.jpg" class="art" alt="painting" />
+          <p class="painter">Пол Смит</p>
+          <h3 class="painting-name">Дикий зверь</h3>
+          <p class="materials">Акварель, бумага (50х80)</p>
+          <p class="price">19 500 руб</p>
+          <button class="btn-rectangle">В корзину</button>
+        </article>
+        <article class="paintings">
+          <img src="images/England2.jpg" class="art" alt="painting" />
+          <p class="painter">Джон Уайт</p>
+          <h3 class="painting-name">Скалистый берег</h3>
+          <p class="materials">Цветная литография (40х60)</p>
+          <p class="price">17 500 руб</p>
+          <button class="btn-rectangle">В корзину</button>
+        </article>
+        <article class="paintings">
+          <img src="images/England3.jpg" class="art" alt="painting" />
+          <p class="painter">Джим Уотсон</p>
+          <h3 class="painting-name">Река и горы</h3>
+          <p class="materials">Акварель, бумага (50х80)</p>
+          <p class="price">20 500 руб</p>
+          <button class="btn-rectangle">В корзину</button>
+        </article>
+        <article class="paintings">
+          <img src="images/England4.jpg" class="art" alt="painting" />
+          <p class="painter">Юджин Зиллион</p>
+          <h3 class="painting-name">Белый попугай</h3>
+          <p class="materials">Цветная литография (40х60)</p>
+          <p class="price">15 500 руб</p>
+          <button class="btn-rectangle">В корзину</button>
+        </article>
+        <article class="paintings">
+          <img src="images/England5.jpg" class="art" alt="painting" />
+          <p class="painter">Эрик Гиллман</p>
+          <h3 class="painting-name">Ночная рыба</h3>
+          <p class="materials">Бумага, акрил (50х80)</p>
+          <p class="price">12 500 руб</p>
+          <button class="btn-rectangle">В корзину</button>
+        </article>
+        <article class="paintings">
+          <img src="images/England6.jpg" class="art" alt="painting" />
+          <p class="painter">Альфред Барр</p>
+          <h3 class="painting-name">Рыжий кот</h3>
+          <p class="materials">Цветная литография (40х60)</p>
+          <p class="price">21 000 руб</p>
+          <button class="btn-rectangle">В корзину</button>
+        </article>
+        <!-- </div> -->
+      </div>
+      <!-- <button class="btn-one">Франция</button>
+          <button class="btn-two">Германия</button>
+          <button class="btn-three">Англия</button> -->
+      <!-- </div>
+      </div> -->
+      <!-- <div class="catalog-block-info">
+        <article class="paintings">
+          <img src="images/01.jpg" class="art" alt="painting" />
+          <p class="painter">Марсель Руссо</p>
+          <h3 class="painting-name">Охота Амура</h3>
+          <p class="materials">Холст, масло (50х80)</p>
+          <p class="price">14 500 руб</p>
+          <button class="btn-rectangle">В корзину</button>
+        </article>
+        <article class="paintings">
+          <img src="images/02.jpg" class="art" alt="painting" />
+          <p class="painter">Анри Селин</p>
+          <h3 class="painting-name">Дама с собачкой</h3>
+          <p class="materials">Акрил, бумага (50х80)</p>
+          <p class="price">16 500 руб</p>
+          <button class="btn-rectangle">В корзину</button>
+        </article>
+        <article class="paintings">
+          <img src="images/03.jpg" class="art" alt="painting" />
+          <p class="painter">Франсуа Дюпон</p>
+          <h3 class="painting-name">Процедура</h3>
+          <p class="materials">Цветная литография (40х60)</p>
+          <p class="price">20 000 руб</p>
+          <button class="btn-rectangle">В корзину</button>
+        </article>
+        <article class="paintings">
+          <img src="images/04.jpg" class="art" alt="painting" />
+          <p class="painter">Луи Детуш</p>
+          <h3 class="painting-name">Роза</h3>
+          <p class="materials">Бумага, акрил (50х80)</p>
+          <p class="price">12 000 руб</p>
+          <button class="btn-rectangle">В корзину</button>
+        </article>
+        <article class="paintings">
+          <img src="images/05.jpg" class="art" alt="painting" />
+          <p class="painter">Франсуа Дюпон</p>
+          <h3 class="painting-name">Птичья трапеза</h3>
+          <p class="materials">Цветная литография (40х60)</p>
+          <p class="price">22 500 руб</p>
+          <button class="btn-rectangle">В корзину</button>
+        </article>
+        <article class="paintings">
+          <img src="images/06.jpg" class="art" alt="painting" />
+          <p class="painter">Пьер Моранж</p>
+          <h3 class="painting-name">Пейзаж с рыбой</h3>
+          <p class="materials">Цветная литография (40х60)</p>
+          <p class="price">20 000 руб</p>
+          <button class="btn-rectangle">В корзину</button>
+        </article>
+      </div> -->
     </div>
     <div class="wide">
       <div class="wide-background-filter">
@@ -325,36 +499,36 @@
     </div>
     <div class="footer510">
       <!-- <div class="footer510-info"> -->
-        <div class="footer510-contacts">
-          <div class="ink-house-footer510">
-            <img src="svg/Star 1.svg" class="team-jpg" alt="star" />
-            <p class="header-text-left">Ink. House</p>
+      <div class="footer510-contacts">
+        <div class="ink-house-footer510">
+          <img src="svg/Star 1.svg" class="team-jpg" alt="star" />
+          <p class="header-text-left">Ink. House</p>
+        </div>
+        <div class="footer510-container">
+          <a href="" class="a-blck">+7 (999) 543-54-54</a>
+          <p class="grey-txt">Мастерская</p>
+        </div>
+      </div>
+      <div class="footer510-context">
+        <div class="footer510-guide">
+          <div class="footer510-flex">
+            <p class="blck-txt">Репродукции</p>
+            <a class="grey-txt" href="">Франция</a>
+            <a class="grey-txt" href="">Германия</a>
+            <a class="grey-txt" href="">Англия</a>
           </div>
-          <div class="footer510-container">
-            <a href="" class="a-blck">+7 (999) 543-54-54</a>
-            <p class="grey-txt">Мастерская</p>
+          <div class="footer510-flex">
+            <p class="blck-txt">Новинки</p>
+            <a class="grey-txt" href="">2021</a>
+            <a class="grey-txt" href="">2020</a>
+          </div>
+          <div class="footer510-flex">
+            <p class="blck-txt">О нас</p>
+            <a class="grey-txt" href="">Художники</a>
+            <a class="grey-txt" href="">Менеджеры</a>
           </div>
         </div>
-        <div class="footer510-context">
-          <div class="footer510-guide">
-            <div class="footer510-flex">
-              <p class="blck-txt">Репродукции</p>
-              <a class="grey-txt" href="">Франция</a>
-              <a class="grey-txt" href="">Германия</a>
-              <a class="grey-txt" href="">Англия</a>
-            </div>
-            <div class="footer510-flex">
-              <p class="blck-txt">Новинки</p>
-              <a class="grey-txt" href="">2021</a>
-              <a class="grey-txt" href="">2020</a>
-            </div>
-            <div class="footer510-flex">
-              <p class="blck-txt">О нас</p>
-              <a class="grey-txt" href="">Художники</a>
-              <a class="grey-txt" href="">Менеджеры</a>
-            </div>
-          </div>
-        </div>
+      </div>
       <!-- </div> -->
       <div class="footer510-logo">
         <div class="social-network">
@@ -409,7 +583,6 @@
           </a>
         </div>
         <p class="grey-txt-logo">Ink. House ® All rights reserved</p>
-       
       </div>
     </div>
     <div class="footer320">
