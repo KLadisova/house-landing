@@ -792,6 +792,7 @@ header {
   .footer510-logo {
     display: flex;
     flex-direction: column;
+    align-items: center;
     max-width: 310px;
     width: 100%;
     margin: 0 auto;
