@@ -147,6 +147,10 @@ header {
   color: #2c2d35;
   background-color: #d4e8d9;
 }
+.tab.active {
+  background-color: #376B44; 
+  color: #F4F6F5; 
+}
 
 .btn-one,
 .btn-two,
