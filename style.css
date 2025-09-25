@@ -424,9 +424,6 @@ header {
   display: none;
 }
 
-[data-tab-content] {
-  display: none;
-}
 /* .active[data-tab-content] {
   display: block;
 } */
@@ -482,7 +479,7 @@ header {
     margin: 0;
     gap: 15px;
   }
-  .catalog-block-info {
+  .active[data-tab-content] {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     box-sizing: border-box;
@@ -692,7 +689,7 @@ header {
     gap: 10px;
     padding: 10px;
   }
-  .catalog-block-info {
+  .active[data-tab-content] {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     box-sizing: border-box;
@@ -811,4 +808,8 @@ header {
     display: flex;
     background-color: #e1ede6;
   }
+}
+
+[data-tab-content] {
+  display: none;
 }
